@@ -7,10 +7,11 @@
     <title>DC-comics</title>
 </head>
 <body>
-@include('partials.header', [links => config('header_menu')])
+@include('partials.header', ['links' => config('header_menu')])
 
-@yield('content')
-
+<main>
+    @yield('content')
+</main>
 
 @include('partials.footer')
 </body>

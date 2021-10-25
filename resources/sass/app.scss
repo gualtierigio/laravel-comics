@@ -1,1 +1,48 @@
-//
+@import "partials/general.scss";
+@import "partials/variables.scss";
+
+
+header{
+    height: 120px;
+    align-items: center;
+}
+
+header img{
+    height: 80px;
+}
+
+div.d-flex.page-wrap{
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+    a{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        color: $nav-text-color;
+    }
+}
+
+li{
+    overflow: hidden;
+    align-items: center;
+    height: 100%;
+    margin-left: 15px;
+    text-transform: uppercase;
+    border: 3px solid white;
+    &:hover{
+        border-bottom: 3px solid $main-blue-color;
+        a {
+            color: $main-blue-color;
+        }
+    }
+}
