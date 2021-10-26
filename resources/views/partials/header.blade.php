@@ -1,14 +1,19 @@
 <header class="d-flex">
     <div class="page-wrap d-flex">
-        <a href="#home"><img src="../assets/img/dc-logo.png" alt=""></a>
+        <a href="#"><img src="{{ asset('images/dc-logo.png')}}" alt=""></a>
         <nav>
             <ul class="d-flex">
-                <li class="d-flex" 
-                @foreach($links as $link)>
-                    <a href="{{ $link['route'] }}" :class="{active : link.current}">{{ $link['text'] }}</a>
+                <li class="d-flex"> 
+                @foreach($links as $link)
+                    <a href="{{ $link['route'] }}">
+                        {{ $link['text'] }}
+                    </a>
                 @endforeach
                 </li>
             </ul>
         </nav>
     </div>
 </header>
+<section id="jumbotron">
+    <img src="{{ asset('images/jumbotron') }}" alt="">
+ </section>

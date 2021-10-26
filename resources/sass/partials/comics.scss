@@ -1,0 +1,47 @@
+button{
+    background-color: $main-blue-color;
+    text-transform: uppercase;
+    border: $main-blue-color;
+    font-weight: bold;
+ }
+ 
+ .page-wrap{
+    height: 100%;
+    button{
+       margin: 30px;
+       padding: 8px 45px;
+       a{
+          text-decoration: none;
+          color: $white-color;
+       }
+    }
+ }
+ 
+ .content-wrap{
+    height: 700px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+ }
+ 
+ // inizio parte blu
+ 
+ .buy-comics{
+    height: 140px;
+    background-color: $main-blue-color;
+ }
+ 
+ .buy-comics__content{
+    height: 100%;
+    padding: 20px;
+    a{
+       height: 100%;
+       align-items: center;
+       text-decoration: none;
+       color: $white-color;
+       text-transform: uppercase;
+          img{
+             height: 50px;
+             padding-right: 20px;
+          }
+    }
+ }
