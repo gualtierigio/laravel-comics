@@ -15983,4 +15983,25 @@ button {
 #comic_wrapper {
   width: 60%;
   margin: 50px auto 0 auto;
+  position: relative;
+}
+
+figure {
+  width: 30%;
+}
+figure img {
+  width: 100%;
+}
+
+div.description {
+  width: 70%;
+}
+
+.cover_comic {
+  width: 150px;
+  height: 320px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  top: -350px;
 }
