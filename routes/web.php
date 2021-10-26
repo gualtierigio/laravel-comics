@@ -17,10 +17,11 @@ Route::get('/', function () {
     return view('comics/index');
 })->name('comics');
 
-Route::get('/comic', function () {
+Route::get('/comic/{id}', function ($id) {
 
     $comics = config('comics');
-    return view('comics/comic', ['comic' => $comics[0]]);
+    $comic = $comics[$id];
+    return view('comics/comic', ['comic' => $comic]);
 })->name('comic');
 
 Route::get('/caracters', function () {
