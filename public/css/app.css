@@ -15904,10 +15904,11 @@ li:hover a {
   color: #0c7cec;
 }
 
-#jumbotron {
-  background-position: top;
-  background-size: cover;
+#jumbotron img {
   height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   position: relative;
 }
 #jumbotron button {
@@ -15966,4 +15967,15 @@ button {
 .buy-comics__content a img {
   height: 50px;
   padding-right: 20px;
+}
+
+.thumb {
+  width: calc(16.6666666667% - 20px);
+  margin: 10px 10px 0 10px;
+}
+.thumb h4, .thumb .h4 {
+  font-size: 0.8rem;
+}
+.thumb img {
+  width: 100%;
 }

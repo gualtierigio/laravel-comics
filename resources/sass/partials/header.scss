@@ -44,10 +44,12 @@ li{
 }
 
 #jumbotron{
-    background-position: top;
-    background-size: cover;
-    height: 400px;
-    position: relative;
+    img{
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+    }
     button{
        padding: 15px 25px;
        font-size: 1.4rem;
