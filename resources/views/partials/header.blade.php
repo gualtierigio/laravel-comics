@@ -15,5 +15,5 @@
     </div>
 </header>
 <section id="jumbotron">
-    <img src="{{ asset('images/jumbotron') }}" alt="">
+    <img src="{{ asset('images/jumbotron.jpg') }}" alt="">
  </section>

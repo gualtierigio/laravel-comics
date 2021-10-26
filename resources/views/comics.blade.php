@@ -1,5 +1,13 @@
 @extends('layout.main')
 
+@php
+
+    $cards = config('comics');
+
+    $buyComics = config('buy_comics');
+
+@endphp
+
 @section('content')
 
     <!-- Fumetti -->
@@ -24,9 +32,13 @@
     <!-- buy comics -->
     <section class="buy-comics">
        <div class="page-wrap d-flex">
-          <div v-for="(buyComic, index) in buyComics" :key="index" class="buy-comics__content">
-             <a class="d-flex" href=""><img :src="buyComic.img" alt="">{{buyComic.text}}</a>
-          </div>
+           @foreach ($buyComics as $buyComic)
+           
+           <div class="buy-comics__content">
+              <a class="d-flex" href=""><img src="{{ asset($buyComic['img']) }}" alt="">{{ $buyComic['text'] }}</a>
+           </div>
+               
+           @endforeach
        </div>
     </section>
     <!-- buy comics / -->

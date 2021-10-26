@@ -11,7 +11,7 @@
 @include('partials.header', ['links' => config('header_menu')])
 
 <main>
-    @yield('content', ['cards' => config('comics')])
+    @yield('content')
 </main>
 
 @include('partials.footer')

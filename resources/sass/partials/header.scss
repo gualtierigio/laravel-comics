@@ -3,11 +3,6 @@ header{
     align-items: center;
 }
 
-.d-flex{
-    display: flex;
-    color: green;
-}
-
 header img{
     height: 80px;
 }
@@ -49,7 +44,6 @@ li{
 }
 
 #jumbotron{
-    background-image: url(../assets/img/jumbotron.jpg);
     background-position: top;
     background-size: cover;
     height: 400px;

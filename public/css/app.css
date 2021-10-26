@@ -15859,18 +15859,9 @@ textarea.form-control-lg {
   margin: 0 auto;
 }
 
-.d-flex {
-  display: flex;
-}
-
 header {
   height: 120px;
   align-items: center;
-}
-
-.d-flex {
-  display: flex;
-  color: green;
 }
 
 header img {
@@ -15914,7 +15905,6 @@ li:hover a {
 }
 
 #jumbotron {
-  background-image: url(../assets/img/jumbotron.jpg);
   background-position: top;
   background-size: cover;
   height: 400px;
@@ -15930,4 +15920,50 @@ li:hover a {
 #jumbotron button a {
   text-decoration: none;
   color: #ffffff;
+}
+
+button {
+  background-color: #0c7cec;
+  text-transform: uppercase;
+  border: #0c7cec;
+  font-weight: bold;
+}
+
+.page-wrap {
+  height: 100%;
+}
+.page-wrap button {
+  margin: 30px;
+  padding: 8px 45px;
+}
+.page-wrap button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.content-wrap {
+  height: 700px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.buy-comics {
+  height: 140px;
+  background-color: #0c7cec;
+}
+
+.buy-comics__content {
+  height: 100%;
+  padding: 20px;
+}
+.buy-comics__content a {
+  height: 100%;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.buy-comics__content a img {
+  height: 50px;
+  padding-right: 20px;
 }
