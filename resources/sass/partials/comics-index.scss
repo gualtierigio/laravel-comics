@@ -10,15 +10,15 @@ button{
     button{
        margin: 30px;
        padding: 8px 45px;
-       a{
-          text-decoration: none;
-          color: $white-color;
-       }
+      //  a{
+      //     text-decoration: none;
+      //     color: $white-color;
+      //  }
     }
  }
  
  .content-wrap{
-    margin-top: 40px;
+    padding-top: 40px;
     flex-wrap: wrap;
  }
  
@@ -45,6 +45,14 @@ button{
     }
  }
  .thumb{
+    text-align: center;
+   a{
+      height: 100%;
+      align-items: center;
+      text-decoration: none;
+      color: $white-color;
+      text-transform: uppercase;
+   }
     // altezza provvisoria
     width: calc(100% / 6 - 20px);
     margin: 10px 10px 0 10px;
@@ -54,22 +62,6 @@ button{
     img{
        width: 100%;
     }
- }
-
- #link-to-comic{ 
-    h4{
-      height: 100%;
-      align-items: center;
-      text-decoration: none;
-      color: $white-color;
-      text-transform: uppercase;
-
-    }
-   height: 100%;
-   align-items: center;
-   text-decoration: none;
-   color: $white-color;
-   text-transform: uppercase;
  }
 
  
