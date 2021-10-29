@@ -4,7 +4,7 @@
         <nav>
             <ul class="d-flex">
                 @foreach($links as $link)
-                <li class="d-flex"> 
+                <li class="d-flex nav"> 
                     <a href="{{ $link['route'] }}">
                         {{ $link['text'] }}
                     </a>
