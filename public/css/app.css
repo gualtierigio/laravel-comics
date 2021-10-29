@@ -15859,6 +15859,11 @@ textarea.form-control-lg {
   margin: 0 auto;
 }
 
+main {
+  background-color: #51505e;
+  color: #ffffff;
+}
+
 header {
   height: 120px;
   align-items: center;
@@ -15889,7 +15894,7 @@ ul a {
   color: #51505e;
 }
 
-li {
+li.nav {
   overflow: hidden;
   align-items: center;
   height: 100%;
@@ -15897,19 +15902,21 @@ li {
   text-transform: uppercase;
   border: 3px solid white;
 }
-li:hover {
+li.nav:hover {
   border-bottom: 3px solid #0c7cec;
 }
-li:hover a {
+li.nav:hover a {
   color: #0c7cec;
 }
 
+#jumbotron {
+  position: relative;
+}
 #jumbotron img {
   height: 400px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  position: relative;
 }
 #jumbotron button {
   padding: 15px 25px;
@@ -15943,7 +15950,6 @@ button {
 }
 
 .content-wrap {
-  height: 700px;
   margin-top: 40px;
   flex-wrap: wrap;
 }
@@ -15980,6 +15986,21 @@ button {
   width: 100%;
 }
 
+#link-to-comic {
+  height: 100%;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+#link-to-comic h4, #link-to-comic .h4 {
+  height: 100%;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 #comic_wrapper {
   width: 60%;
   margin: 50px auto 0 auto;
@@ -16004,4 +16025,11 @@ div.description {
      object-fit: contain;
   position: absolute;
   top: -350px;
+}
+
+footer {
+  background-image: url("../images/footer-bg.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
