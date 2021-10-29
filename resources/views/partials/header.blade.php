@@ -3,8 +3,8 @@
         <a href="#"><img src="{{ asset('images/dc-logo.png')}}" alt=""></a>
         <nav>
             <ul class="d-flex">
-                <li class="d-flex"> 
                 @foreach($links as $link)
+                <li class="d-flex"> 
                     <a href="{{ $link['route'] }}">
                         {{ $link['text'] }}
                     </a>

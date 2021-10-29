@@ -1,1 +1,3 @@
-<h1>footer</h1>
+<<div class="page-wrap">
+         
+</div>
