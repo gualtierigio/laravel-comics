@@ -40,16 +40,32 @@
  .under-footer{
      background-color: rgb(39, 39, 39);
      padding: 20px 0;
+     button{
+        color: white;
+        text-transform: uppercase;
+        background-color: rgb(39, 39, 39);
+        border: 2px solid rgb(0, 100, 231);
+        padding: 15px;
+        font-size: 1.2rem;
+    }
      ul{
          list-style-type: none;
          margin-bottom: 0;
+         align-items: center;
          li{
-             padding-left: 8px;
-             button{
-                 color: white;
-                 background-color: rgb(39, 39, 39);
-                 border: 2px solid blue;
-             }
+             padding-left: 20px;
          }
      }
+ }
+
+ .follow{
+     text-transform: uppercase;
+     color: rgb(0, 100, 231);
+     font-weight: bold;
+     font-size: 1.2rem;
+ }
+
+ .under-footer-wrap{
+     width: 60%;
+     margin: 0 auto;
  }

@@ -86,13 +86,13 @@
       </div>
    </div>
    <div class="under-footer">
-      <div class="page-wrap d-flex align-content-center justify-content-between">
+      <div class="under-footer-wrap d-flex align-content-center justify-content-between">
          <div>
             <button>sign-up-now!</button>
          </div>
          <div>
             <ul class="d-flex">
-               <li>follow us</li>
+               <li class="follow">follow us</li>
                <li><img src="{{ asset('images/footer-facebook.png') }}" alt="social icon"></li>
                <li><img src="{{ asset('images/footer-twitter.png') }}" alt="social icon"></li>
                <li><img src="{{ asset('images/footer-youtube.png') }}" alt="social icon"></li>

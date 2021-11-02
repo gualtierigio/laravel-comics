@@ -15930,14 +15930,6 @@ li.nav:hover a {
   color: #ffffff;
 }
 
-.page-wrap {
-  height: 100%;
-}
-.page-wrap button {
-  margin: 30px;
-  padding: 8px 45px;
-}
-
 .content-wrap {
   padding-top: 40px;
   flex-wrap: wrap;
@@ -16051,15 +16043,31 @@ div.description {
   background-color: #272727;
   padding: 20px 0;
 }
+.under-footer button {
+  color: white;
+  text-transform: uppercase;
+  background-color: #272727;
+  border: 2px solid #0064e7;
+  padding: 15px;
+  font-size: 1.2rem;
+}
 .under-footer ul {
   list-style-type: none;
   margin-bottom: 0;
+  align-items: center;
 }
 .under-footer ul li {
-  padding-left: 8px;
+  padding-left: 20px;
 }
-.under-footer ul li button {
-  color: white;
-  background-color: #272727;
-  border: 2px solid blue;
+
+.follow {
+  text-transform: uppercase;
+  color: #0064e7;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.under-footer-wrap {
+  width: 60%;
+  margin: 0 auto;
 }
