@@ -15930,13 +15930,6 @@ li.nav:hover a {
   color: #ffffff;
 }
 
-button {
-  background-color: #0c7cec;
-  text-transform: uppercase;
-  border: #0c7cec;
-  font-weight: bold;
-}
-
 .page-wrap {
   height: 100%;
 }
@@ -16016,7 +16009,7 @@ div.description {
   top: -350px;
 }
 
-footer {
+.footer-wrapper {
   background-image: url("../images/footer-bg.jpg");
   height: 400px;
   background-repeat: no-repeat;
@@ -16024,17 +16017,49 @@ footer {
   padding: 50px;
   overflow: hidden;
 }
-footer ul {
+.footer-wrapper ul {
   list-style-type: none;
 }
-footer ul li h3, footer ul li .h3 {
+.footer-wrapper ul li {
+  line-height: 17px;
+}
+.footer-wrapper ul li h3, .footer-wrapper ul li .h3 {
   color: white;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin: 10px 0;
   font-weight: bold;
   font-size: 1.2rem;
 }
-footer ul a {
+.footer-wrapper ul a {
   text-decoration: none;
   color: gray;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.copyright {
+  padding-left: 2rem;
+  color: gray;
+  font-size: 0.8rem;
+}
+.copyright a {
+  text-decoration: none;
+  color: blue;
+}
+
+.under-footer {
+  background-color: #272727;
+  padding: 20px 0;
+}
+.under-footer ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+.under-footer ul li {
+  padding-left: 8px;
+}
+.under-footer ul li button {
+  color: white;
+  background-color: #272727;
+  border: 2px solid blue;
 }

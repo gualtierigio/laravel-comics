@@ -1,4 +1,4 @@
-footer{
+.footer-wrapper{
     background-image: url('../images/footer-bg.jpg');
     height: 400px;
     background-repeat: no-repeat;
@@ -8,10 +8,11 @@ footer{
     ul{
         list-style-type: none;
         li{
+            line-height: 17px;
             h3{
                 color: white;
                 text-transform: uppercase;
-                margin-bottom: 20px;
+                margin: 10px 0;
                 font-weight: bold;
                 font-size: 1.2rem;
             }
@@ -20,7 +21,35 @@ footer{
         a{
             text-decoration: none;
             color: gray;
+            font-weight: 400;
+            font-size: 0.8rem;
         }
     }
  }
 
+ .copyright{
+     padding-left: 2rem;
+     color: gray;
+     font-size: 0.8rem;
+     a{
+         text-decoration: none;
+         color: blue;
+     }
+ }
+
+ .under-footer{
+     background-color: rgb(39, 39, 39);
+     padding: 20px 0;
+     ul{
+         list-style-type: none;
+         margin-bottom: 0;
+         li{
+             padding-left: 8px;
+             button{
+                 color: white;
+                 background-color: rgb(39, 39, 39);
+                 border: 2px solid blue;
+             }
+         }
+     }
+ }

@@ -5,7 +5,7 @@
 <section class="d-flex" id="comic_wrapper">
 
 {{-- sezione descrittiva --}}
-    <img class="cover_comic" src="{{ $comic['thumb'] }}" alt="">
+    <img class="cover_comic" src="{{ $comic['thumb'] }}" alt="img thumb">
 
     <div class="description">
             
