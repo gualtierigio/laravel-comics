@@ -2,10 +2,16 @@
 
 @section('content')
 
+<div class="blue-fill">
+
+</div>
+
 <section class="d-flex" id="comic_wrapper">
 {{-- sezione descrittiva --}}
     <div class="description-wrapper">
-        <img class="cover_comic" src="{{ $comic['thumb'] }}" alt="img thumb">
+        <div class="cover_comic">
+            <img src="{{ $comic['thumb'] }}" alt="img thumb">
+        </div>
         <div class="description">   
             <h2>{{ $comic['title'] }}</h2>
 
