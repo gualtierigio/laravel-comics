@@ -14,6 +14,6 @@
     @yield('content')
 </main>
 
-@include('partials.footer')
+@include('partials.footer', ['links' => config('header_menu')])
 </body>
 </html>

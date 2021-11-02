@@ -16021,4 +16021,17 @@ footer {
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 50px;
+  overflow: hidden;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li h3, footer ul li .h3 {
+  color: white;
+  text-transform: uppercase;
+}
+footer ul a {
+  text-decoration: none;
+  color: gray;
 }
