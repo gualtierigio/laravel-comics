@@ -15996,17 +15996,6 @@ li.nav:hover a {
   position: relative;
 }
 
-figure {
-  width: 30%;
-}
-figure img {
-  width: 100%;
-}
-
-div.description {
-  width: 70%;
-}
-
 .cover_comic {
   width: 150px;
   height: 320px;
@@ -16014,6 +16003,49 @@ div.description {
      object-fit: contain;
   position: absolute;
   top: -350px;
+}
+
+.description-wrapper {
+  padding-right: 80px;
+}
+
+.description p {
+  margin-bottom: 0;
+}
+.description h2, .description .h2 {
+  color: #292929;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.description .tab-wrapper {
+  background-color: #00c300;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  color: white;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.description .tab-wrapper .price-wrap {
+  width: 70%;
+  border-right: 1px solid black;
+  padding: 15px;
+}
+.description .tab-wrapper .availability {
+  padding: 15px;
+}
+
+.advert-superman {
+  width: 150%;
+}
+.advert-superman h2, .advert-superman .h2 {
+  text-align: right;
+}
+.advert-superman figure {
+  width: 100%;
+}
+.advert-superman figure img {
+  width: 100%;
 }
 
 .footer-wrapper {
