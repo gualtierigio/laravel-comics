@@ -15859,11 +15859,6 @@ textarea.form-control-lg {
   margin: 0 auto;
 }
 
-main {
-  background-color: #51505e;
-  color: #ffffff;
-}
-
 header {
   height: 120px;
   align-items: center;
@@ -15957,7 +15952,6 @@ li.nav:hover a {
 }
 
 .thumb {
-  text-align: center;
   width: calc(16.6666666667% - 20px);
   margin: 10px 10px 0 10px;
 }
@@ -15970,9 +15964,30 @@ li.nav:hover a {
 }
 .thumb h4, .thumb .h4 {
   font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-top: 12px;
+  font-weight: bold;
 }
 .thumb img {
   width: 100%;
+}
+
+.load-more {
+  background-color: #0064e7;
+  padding: 10px 80px;
+  margin: 20px auto;
+  border: none;
+}
+.load-more a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.cards-wrapper {
+  background-color: #0e0e0e;
 }
 
 #comic_wrapper {

@@ -11,23 +11,24 @@
 @section('content')
 
     <!-- Fumetti -->
-    <section>
-       <div class="page-wrap">
-          <div class="content-wrap d-flex">
-
-              @foreach($cards as $card)
-
-              <div class="thumb">
-                    <a id="link-to-comic" href="{{ route('comic', ['id' => $loop->index]) }}">
-                        <img src="{{ $card['thumb'] }}" alt="{{ $card['title'] }} - images">
-                        <h4>{{ $card['title'] }}</h4>
-                    </a>
-              </div>
-                  
-              @endforeach
-          </div>
-          <button><a href="#">Load more</a></button>
-       </div>
+    <section class="cards-wrapper">
+        <div class="page-wrap">
+            <div class="content-wrap d-flex">
+                @foreach($cards as $card)
+                    <div class="thumb">
+                        <a id="link-to-comic" href="{{ route('comic', ['id' => $loop->index]) }}">
+                            <img src="{{ $card['thumb'] }}" alt="{{ $card['title'] }} - images">
+                            <h4>{{ $card['title'] }}</h4>
+                        </a>
+                    </div>    
+                 @endforeach
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button class="load-more">
+                <a href="#">Load more</a>
+            </button>
+        </div>
     </section>
     <!-- Fumetti / -->
 
